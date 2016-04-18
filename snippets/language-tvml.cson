@@ -1,0 +1,4 @@
+'.source.tvml':
+  'alertTemplate':
+    'prefix': 'alertTemplate'
+    'body': '<alertTemplate>\n\t<title>${1:...}</title>\n\t<description>${2:...}</description>\n\t<button>\n\t\t<text>${3:...}</text>\n\t</button>\n\t<text>${4:...}</text>\n</alertTemplate>$5'
