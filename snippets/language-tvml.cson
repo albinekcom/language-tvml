@@ -2,3 +2,67 @@
   'alertTemplate':
     'prefix': 'alertTemplate'
     'body': '<alertTemplate>\n\t<title>${1:...}</title>\n\t<description>${2:...}</description>\n\t<button>\n\t\t<text>${3:...}</text>\n\t</button>\n\t<text>${4:...}</text>\n</alertTemplate>$5'
+
+  'catalogTemplate':
+    'prefix': 'catalogTemplate'
+    'body': '<catalogTemplate>\n\t<banner>\n\t\t<title>${1:...}</title>\n\t</banner>\n\t<list>\n\t\t<section>\n\t\t\t<listItemLockup>\n\t\t\t\t${2:...}\n\t\t\t</listItemLockup>\n\t\t</section>\n\t\t<section>\n\t\t\t<header>\n\t\t\t\t${3:...}\n\t\t\t</header>\n\t\t\t<listItemLockup>\n\t\t\t\t${4:...}\n\t\t\t</listItemLockup>\n\t\t</section>\n\t</list>\n</catalogTemplate>$5'
+
+  'compilationTemplate':
+    'prefix': 'compilationTemplate'
+    'body': '<compilationTemplate>\n\t<background>\n\t\t${1:...}\n\t</background>\n\t<list>\n\t\t<relatedContent>\n\t\t\t<itemBanner>\n\t\t\t\t${2:...}\n\t\t\t</itemBanner>\n\t\t</relatedContent>\n\t\t<header>\n\t\t\t${3:...}\n\t\t</header>\n\t\t<section>\n\t\t\t<header>\n\t\t\t<title>${4:Title}</title>\n\t\t\t</header>\n\t\t\t<listItemLockup>\n\t\t\t\t${5:...}\n\t\t\t</listItemLockup>\n\t\t</section>\n\t</list>\n</compilationTemplate>$6'
+
+  'descriptiveAlertTemplate':
+    'prefix': 'descriptiveAlertTemplate'
+    'body': '<descriptiveAlertTemplate>\n\t<title>${1:Title}</title>\n\t<img />\n\t<description>${2:Title}</description>\n\t<row>\n\t\t<button>\n\t\t\t${3:...}\n\t\t</button>\n\t</row>\n</descriptiveAlertTemplate>$4'
+
+  'formTemplate':
+    'prefix': 'formTemplate'
+    'body': '<formTemplate>\n\t<banner>\n\t\t<img />\n\t\t<description>${1:...}</description>\n\t</banner>\n\t<textField>${2:...}</textField>\n\t<footer>${3:...}</footer>\n</formTemplate>$4'
+
+  'listTemplate':
+    'prefix': 'listTemplate'
+    'body': '<listTemplate>\n\t<banner>\n\t\t${1:...}\n\t</banner>\n\t<list>\n\t\t<header>\n\t\t\t${2:...}\n\t\t</header>\n\t\t<section>\n\t\t\t<listItemLockup>\n\t\t\t\t<title>${3:...}</title>\n\t\t\t\t<relatedContent>\n\t\t\t\t\t${4:...}\n\t\t\t\t</relatedContent>\n\t\t\t</listItemLockup\n\t\t</section>\n\t</list>\n</listTemplate>$5'
+
+  'loadingTemplate':
+    'prefix': 'loadingTemplate'
+    'body': '<document>\n\t<loadingTemplate>\n\t\t<activityIndicator>\n\t\t\t<title>${1:Title}</title>\n\t\t</activityIndicator>\n\t</loadingTemplate>\n</document>$2'
+
+  'mainTemplate':
+    'prefix': 'mainTemplate'
+    'body': '<mainTemplate>\n\t<background>${1:...}</background>\n\t<menuBar>\n\t\t<section>\n\t\t\t<menuItem>${2:...}</menuItem>\n\t\t\t<menuItem>${3:...}</menuItem>\n\t\t</section>\n\t</menuBar>\n</mainTemplate>$4'
+
+  'menuBarTemplate':
+    'prefix': 'menuBarTemplate'
+    'body': '<document>\n\t<menuBarTemplate>\n\t\t<menuBar>\n\t\t\t<menuItem>\n\t\t\t\t<title>${1:...}</title>\n\t\t\t</menuItem>\n\t\t</menuBar>\n\t</menuBarTemplate>\n</document>$2'
+
+  'oneupTemplate':
+    'prefix': 'oneupTemplate'
+    'body': '<oneupTemplate>\n\t<section>\n\t\t<lockup>\n\t\t\t<img />\n\t\t\t<title>${1:...}</title>\n\t\t\t<row>\n\t\t\t\t${2:...}\n\t\t\t</row>\n\t\t</lockup>\n\t\t<lockup>\n\t\t\t${3:...}\n\t\t</lockup>\n\t</section>\n</oneupTemplate>$4'
+
+  'paradeTemplate':
+    'prefix': 'paradeTemplate'
+    'body': '<paradeTemplate>\n\t<list>\n\t\t<header>\n\t\t\t<title>${1:Title}</title>\n\t\t</header>\n\t\t<section>\n\t\t\t<listItemLockup>\n\t\t\t\t<title>${2:Title 1}</title>\n\t\t\t</listItemLockup>\n\t\t<listItemLockup>\n\t\t\t<title>${3:Title 2}</title>\n\t\t</listItemLockup>\n\t\t</section>\n\t\t<relatedContent>\n\t\t\t<imgDeck>\n\t\t\t\t<img src="" />\n\t\t\t\t<img src="" />\n\t\t\t</imgDeck>\n\t\t</relatedContent\n\t</list>\n</paradeTemplate>$3'
+
+  'productBundleTemplate':
+    'prefix': 'productBundleTemplate'
+    'body': '<document>\n\t<productBundleTemplate>\n\t\t<background>\n\t\t</background>\n\t\t<banner>\n\t\t\t<stack>\n\t\t\t\t<title>${1:...}</title>\n\t\t\t\t<row>\n\t\t\t\t</row>\n\t\t\t\t<text>${2:...}</text>\n\t\t\t\t<description>…</description>\n\t\t\t\t<row>\n\t\t\t\t\t<buttonLockup>\n\t\t\t\t\t</buttonLockup>\n\t\t\t\t</row>\n\t\t\t</stack>\n\t\t\t<heroImg src="${3:...}" />\n\t\t</banner>\n\t\t<shelf>\n\t\t</shelf>\n\t\t<!— Everything following is under the fold —>\n\t\t<shelf>\n\t\t</shelf>\n\t\t<productInfo>\n\t\t\t${4:...}\n\t\t</productInfo>\n\t</productBundleTemplate>\n</document>$5'
+
+  'productTemplate':
+    'prefix': 'productTemplate'
+    'body': '<productTemplate>\n\t<banner>\n\t\t<infoList>\n\t\t</infoList>\n\t\t<stack>\n\t\t\t<title>${1:...}</title>\n\t\t\t<subtitle>${2:...}</subtitle>\n\t\t\t<row>\n\t\t\t</row>\n\t\t\t\t<description>…</description>\n\t\t\t\t<buttonLockup>\n\t\t\t\t</buttonLockup>\n\t\t</stack>\n\t\t<heroImage src="${3:...}" />\n\t</banner>\n\t<shelf>\n\t</shelf>\n\t<!—- Everything following is under the fold —->\n\t<shelf>\n\t</shelf>\n\t<productInfo>\n\t</productInfo>\n</productTemplate>$4'
+
+  'ratingTemplate':
+    'prefix': 'ratingTemplate'
+    'body': '<document>\n\t<ratingTemplate>\n\t\t<title>${1:...}</title>\n\t\t<ratingBadge></ratingBadge>\n\t</ratingTemplate>\n</document>$2'
+
+  'searchTemplate':
+    'prefix': 'searchTemplate'
+    'body': '<searchTemplate>\n\t<searchField />\n\t<shelf>\n\t\t<header>\n\t\t\t${1:...}\n\t\t</header>\n\t\t<section>\n\t\t\t<lockup>\n\t\t\t\t<img />\n\t\t\t\t<title>${2:...}</title>\n\t\t\t</lockup>\n\t\t</section>\n\t</shelf>\n</searchTemplate>$3'
+
+  'showcaseTemplate':
+    'prefix': 'showcaseTemplate'
+    'body': '<showcaseTemplate>\n\t<background>${1:...}</background>\n\t<banner>\n\t\t<title>${2:...}</title>\n\t\t<row>\n\t\t\t<button>${3:...}</button>\n\t\t</row>\n\t</banner>\n\t<carousel>\n\t\t<section>\n\t\t\t<lockup>${4:...}</lockup>\n\t\t</section>\n\t</carousel>\n</showcaseTemplate>$5'
+
+  'stackTemplate':
+    'prefix': 'stackTemplate'
+    'body': '<stackTemplate>\n\t<banner>\n\t\t${1:...}\n\t</banner>\n\t<collectionList>\n\t\t<shelf>\n\t\t\t<section>\n\t\t\t\t<lockup>${2:...}</lockup>\n\t\t\t</section>\n\t\t</shelf>\n\t</collectionList>\n</stackTemplate>$3'
