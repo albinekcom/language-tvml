@@ -1,0 +1,16 @@
+'scopeName': 'source.tvml'
+
+'name': 'TVML'
+
+'fileTypes': [
+  'tvml'
+]
+
+'repository':
+  'comments':
+    'begin': '<[!%]--'
+    'captures':
+      '0':
+        'name': 'punctuation.definition.comment.tvml'
+    'end': '--%?>'
+    'name': 'comment.block.tvml'
