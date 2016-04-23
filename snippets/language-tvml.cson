@@ -41,7 +41,7 @@
 
   'paradeTemplate':
     'prefix': 'paradeTemplate'
-    'body': '<paradeTemplate>\n\t<list>\n\t\t<header>\n\t\t\t<title>${1:Title}</title>\n\t\t</header>\n\t\t<section>\n\t\t\t<listItemLockup>\n\t\t\t\t<title>${2:Title 1}</title>\n\t\t\t</listItemLockup>\n\t\t<listItemLockup>\n\t\t\t<title>${3:Title 2}</title>\n\t\t</listItemLockup>\n\t\t</section>\n\t\t<relatedContent>\n\t\t\t<imgDeck>\n\t\t\t\t<img src="" />\n\t\t\t\t<img src="" />\n\t\t\t</imgDeck>\n\t\t</relatedContent\n\t</list>\n</paradeTemplate>$3'
+    'body': '<paradeTemplate>\n\t<list>\n\t\t<header>\n\t\t\t<title>${1:Title}</title>\n\t\t</header>\n\t\t<section>\n\t\t\t<listItemLockup>\n\t\t\t\t<title>${2:Title 1}</title>\n\t\t\t</listItemLockup>\n\t\t<listItemLockup>\n\t\t\t<title>${3:Title 2}</title>\n\t\t</listItemLockup>\n\t\t</section>\n\t\t<relatedContent>\n\t\t\t<imgDeck>\n\t\t\t\t<img src="" />\n\t\t\t\t<img src="" />\n\t\t\t</imgDeck>\n\t\t</relatedContent\n\t</list>\n</paradeTemplate>$4'
 
   'productBundleTemplate':
     'prefix': 'productBundleTemplate'
