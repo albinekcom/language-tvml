@@ -6,5 +6,3 @@ Atom snippets and syntax highlighting for [TVML](https://developer.apple.com/lib
 ## TODO
 
 - [ ] Add basic grammars
-- [ ] Test
-- [ ] Publish

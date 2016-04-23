@@ -1,6 +1,6 @@
 {
   "name": "language-tvml",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "TVML language support in Atom",
   "engines": {
     "atom": "*",
@@ -15,6 +15,5 @@
   "bugs": {
     "url": "https://github.com/albinekcom/language-tvml/issues"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
